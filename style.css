@@ -1,0 +1,36 @@
+input {
+	width: 400px;
+	height: 25px;
+	font-size: 20px;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+}
+
+.div {
+	border-width: 1px;
+	border-color: black;
+	border-radius: 15px;
+}
+
+h1 {
+	font-family: Arial;
+	font-size: 40px;
+	font-style: italic;
+
+}
+
+p {
+	font-family: Arial;
+	font-size: 15px
+}
+
+img {
+	width: 250*1.5px;
+	height: 42*1.5px;
+	display: block;
+	border: 1px solid black;
+	vertical-align: center;
+}
