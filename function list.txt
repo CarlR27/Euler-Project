@@ -1,0 +1,7 @@
+Problem 1 - multiples()
+Problem 2 - fibonacci()
+Problem 3 - prime()
+Problem 4 - palindrome()
+Problem 5 - smallestmultiple()
+Problem 6 - Sumsquaredifference()
+Problem 7 - primefinder()
