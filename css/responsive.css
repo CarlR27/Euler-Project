@@ -1,0 +1,119 @@
+@media screen and (min-width: 480px) {
+  
+  /**********************************
+  THREE COLUMN LAYOUT
+  ***********************************/
+    
+  #gallery li {
+    width: 28.33333%;
+  } 
+  
+  #gallery li:nth-child(4n) {
+    clear: left;
+  }
+
+  #gallery li:nth-child(8n) {
+      clear: right;
+    }
+
+  #gallery li:nth-child(10n) {
+      clear: both;
+    }
+
+  /**********************************
+  3 * 5 = 15
+  100% - 15% = 85% / 3 = 28.3333333%
+  ***********************************/
+  
+}
+
+@media screen and (min-width: 660px) {
+ 
+  /**********************************
+  HEADER
+  ***********************************/
+  
+  nav {
+    background: none;
+    float: right;
+    border: none;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+  
+  #logo {
+    float: left;
+    width: 25%;
+    background: none;
+    padding-left: 2%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    font-size: 0.825em;
+    margin-bottom: 20px;
+  }
+  
+  header {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  
+}
+
+@media screen and (min-width: 1000px) {
+   
+  /**********************************
+  FOUR COLUMN LAYOUT
+  ***********************************/
+    
+  #gallery li {
+    width: 20%;
+  } 
+  
+ #gallery li:nth-child(4n) {
+    clear: none;
+  }
+
+  #gallery li:nth-child(8n) {
+      clear: none;
+    }
+
+  #gallery li:nth-child(10n) {
+      clear: none;
+    }
+
+  #gallery li:nth-child(5n) {
+    clear: none;
+  }
+
+  #gallery li:nth-child(9n) {
+      clear: left;
+    }
+}
+
+@media screen and (min-width: 1650px) {
+   
+  /**********************************
+  FIVE COLUMN LAYOUT
+  ***********************************/
+    
+  #gallery li {
+    width: 15%;
+  } 
+  
+  #gallery li:nth-child(5n) {
+    clear: none;
+  }
+
+  #gallery li:nth-child(9n) {
+      clear: none;
+    }
+  
+}

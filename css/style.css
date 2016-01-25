@@ -1,0 +1,194 @@
+/***************************
+GENERAL
+***************************/
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+/***************************
+HEADING
+***************************/
+
+header {
+	float: left;
+	margin: 0 0 10px 0;
+	padding: 20px 0 0 0;
+	width: 100%;
+}
+
+.euler {
+	width: 250*1.5px;
+	height: 42*1.5px;
+	display: block;
+	border: 2px solid black;
+	border-radius: 10px;
+	background: white;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+#logo {
+	margin: 0 auto;
+}
+
+/***************************
+NAVIGATION
+***************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+	border-bottom: 1px solid black;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	padding: 10px;
+}
+
+
+/***************************
+FOOTER
+***************************/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 10px;
+	clear: both;
+	border-top: 1px solid black;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 10px
+	left: 0px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  border: 1px solid black;
+}
+
+/***************************
+GALLERY
+***************************/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+}
+
+#gallery li a p {
+	margin: 0 auto;
+	padding: 5%;
+	font-size: 0.75em;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#gallery img {
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+/***************************
+COLORS
+***************************/
+
+body {
+	background-color: #D8D8D8;
+	color: #999;
+}
+
+nav {
+	background-color: #707070; 
+}
+
+
+#logo {
+	background-color: white;
+}
+
+header {
+	background: linear-gradient(to top, #707070, darkgrey); 
+}
+
+footer {
+	background: linear-gradient(to top, #707070, darkgrey);
+}
+
+footer p {
+	color: black;
+}
+
+#gallery li a p{
+	color: black;
+}
+
+#gallery li {
+	background-color: ;
+	color: darkblue; /*Not sure what this does*/
+}
+
+a {
+	color: #6ab47b;
+}
+
+nav a, nav a:visited {
+	color: #fff;
+}
+
+nav a.selected, nav a:hover {
+	color: orange;
+}
+
+/***************************
+QUESTIONS & ANSWERS STYLING
+***************************/
+
+input {
+	width: 400px;
+	height: 25px;
+	font-size: 20px;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+}
+
+h1 {
+	font-family: Arial;
+	font-size: 40px;
+	font-style: italic;
+
+}
+
+p {
+	font-family: Arial;
+	font-size: 15px
+}
